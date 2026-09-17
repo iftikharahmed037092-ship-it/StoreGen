@@ -2702,3 +2702,17 @@ button {
     transform: none;
   }
 }
+
+
+.logo img {
+    display: block;
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        width: 150px;
+    }
+}
