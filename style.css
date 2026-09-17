@@ -2708,11 +2708,13 @@ button {
     display: block;
     width: 150px;
     height: auto;
+    max-height: 55px;
     object-fit: contain;
 }
 
 @media (max-width: 768px) {
     .logo img {
-        width: 150px;
+        width: 125px;
+        max-height: 45px;
     }
 }
