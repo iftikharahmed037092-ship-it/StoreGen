@@ -2706,7 +2706,7 @@ button {
 
 .logo img {
     display: block;
-    width: 125px;
+    width: 105px;
     height: auto;
     max-height: 48px;
     object-fit: contain;
@@ -2714,7 +2714,7 @@ button {
 
 @media (max-width: 768px) {
     .logo img {
-        width: 105px;
+        width: 90px;
         max-height: 40px;
     }
 }
